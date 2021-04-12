@@ -40,23 +40,13 @@ var arrayStudenti = [
     },
 ]
 
+
+
 for (var i = 0; i < arrayStudenti.length; i++) {
 
-    var student = arrayStudenti[i]
-
-    for(var key in student){
-
-        if(key == 'nome'){
-
-            console.log('nome studente: ' + student[key]);
-
-        }
-        if (key == 'cognome'){
-
-            console.log('cognome studente: ' + student[key]);
-
-        }
-    }
+    console.log(arrayStudenti[i]['nome']);
+    
+    console.log(arrayStudenti[i]['cognome']);
     
 }
 
